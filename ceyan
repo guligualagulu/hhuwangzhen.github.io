@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+	#include<stdio.h><br>
+int main()<br>
+{<br>
+	int k,i,c=0;<br>
+	int a[123]={0};<br>
+	char b[50];<br>
+	gets(b);<br>
+		for(k=0;k<50;k++)<br>
+		{<br>
+			i=b[k]-1;<br>
+		a[i]++;<br>
+		}<br>
+		for(k=0;k<50;k++)<br>
+		{   i=b[k]-1;<br>
+			if(a[i]==1)<br>
+			{<br>
+				c=1;<br>
+	          printf("%d\n",k);<br>
+		       break;<br>
+			}<br>
+		}<br>
+			if(c==0)<br>
+				printf("-1\n");<br>
+			return 0;<br>
+}<br>
+	
+</body>
+</html>
